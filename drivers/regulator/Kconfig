@@ -1588,5 +1588,9 @@ config REGULATOR_WL2868C
 		regulator. The regulator is a programmable power management IC
 		(PMIC), it is controlled by I2C and provides one BUCK, one BOOST
 		and four LDO outputs.
-		
+
+config I2C_RETRY
+	bool "Stub Regulator"
+	help
+	  This help control I2C retry functions
 endif
